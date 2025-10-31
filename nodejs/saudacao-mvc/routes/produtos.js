@@ -8,6 +8,8 @@ router.get('/', siteController.produtos)
 
 
 router.get('/camisetas', siteController.camisetas)
+router.get('/cadastrar', siteController.formcadastrar)
+router.post('/cadastrar', siteController.cadastrar)
 
 
 
